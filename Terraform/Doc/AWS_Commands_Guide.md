@@ -374,7 +374,7 @@ Shows VPC Flow Log streams.
 
 ## View CloudTrail Logs
 
-aws s3 ls s3://devsecops-cloudtrail-448830788768 --recursive
+aws s3 ls s3://<cloudtrail-bucket-name> --recursive
 
 Purpose:
 Lists CloudTrail log files stored in S3.
